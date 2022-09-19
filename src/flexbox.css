@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(242, 242, 242);
+    font-size: 15px;
+    color: rgb(242, 242, 242);
+    font-family: 'Lexend Deca', sans-serif;
+}
+p{
+    margin-bottom: 4rem;
+}
+section{
+    margin:7rem 5rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+div{
+    height: fit-content;
+    width: 250px;
+    border: 1px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color:rgba(29, 57, 55, 0.7) !important;
+    margin-top: 5rem ;
+}
+section div:first-child{
+    background-color: rgb(227, 136, 38);
+    border-radius: 5px 0 0 5px ;
+}
+section div:nth-child(2){
+    background-color: rgb(0, 105, 112) ;
+}
+section div:last-child{
+    background-color:rgb(0, 66, 65) ;
+    border-radius: 0 5px 5px 0 ;
+}
+h3{
+    margin: 1rem 0;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 1.8px;
+}
+.btn-1:hover{
+    color: white !important;
+    background-color: rgb(227, 136, 38);
+    border: solid thin white;
+}
+.btn-2:hover{
+    color: white !important;
+    background-color:rgb(0, 105, 112) ;
+    border: solid thin white;
+}
+.btn-3:hover{
+    color:white !important;
+    background-color:rgb(0, 66, 65) ;
+    border: solid thin white;
+}
